@@ -4,6 +4,7 @@
 #include "PROGRESSION.h"
 #include "SPYU.h"
 #include "MATRIX.h"
+#include "DELETE.h"
 
 using namespace std;
 
@@ -32,9 +33,10 @@ int main() {
 		cout << "1. Вычисление sin, cos, tg по углу в радианах" << endl;
 		cout << "2. Вычисление прогрессии" << endl;
 		cout << "3. Сформировать матрицу, у которой  в каждой строке содержатся числа из исходного набора" << endl;
-		cout << "4. Выход" << endl;
+		cout << "4. " << endl;
+		cout << "5. Выход" << endl;
 
-		cout << "Выберите действие (1-4): ";
+		cout << "Выберите действие (1-5): ";
 		cin >> choice;
 
 		switch (choice) {
@@ -48,6 +50,9 @@ int main() {
 			MATRIX();
 			break;
 		case 4:
+			DELETE();
+			break;
+		case 5:
 			cout << "Выход из программы." << endl;
 			break;
 		default:

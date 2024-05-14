@@ -127,12 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DELETE.cpp" />
     <ClCompile Include="MATRIX.cpp" />
     <ClCompile Include="MENU2.0.cpp" />
     <ClCompile Include="PROGRESSION.cpp" />
     <ClCompile Include="SPYU.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DELETE.h" />
     <ClInclude Include="MATRIX.h" />
     <ClInclude Include="PROGRESSION.h" />
     <ClInclude Include="SPYU.h" />
